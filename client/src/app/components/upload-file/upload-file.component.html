@@ -1,0 +1,17 @@
+<h2>Upload your song below</h2>
+
+<form (ngSubmit)="processForm()">
+  <table>
+    <tr>
+      <td>File:</td>
+      <td>
+        <input type="file" #toUpload />
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td><button type="submit">Upload</button></td>
+    </tr>
+  </table>
+</form>
